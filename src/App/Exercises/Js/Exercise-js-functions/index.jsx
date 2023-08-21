@@ -9,6 +9,7 @@ export function Exercise() {
     return `Witaj ${name}! Jesteś ${amount} uzytkownikiem odwiedzającym tę stronę!`;
   }
 
+  
   return (
     <div>
       <p>Definiowanie funkcji</p>

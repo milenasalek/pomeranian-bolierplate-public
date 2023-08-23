@@ -1,6 +1,14 @@
 import './styles.css';
 
 export function Exercise() {
+  const animal = {
+    type: "dog",
+    age: 8,
+  };
+    animal.age = 10,
+
+console.log(animal.age);
+
   function multiply(num1, num2) {
     return num1 * num2;
   }
@@ -9,7 +17,6 @@ export function Exercise() {
     return `Witaj ${name}! Jesteś ${amount} uzytkownikiem odwiedzającym tę stronę!`;
   }
 
-  
   return (
     <div>
       <p>Definiowanie funkcji</p>

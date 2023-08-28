@@ -2,20 +2,24 @@ import { useState } from 'react';
 import './styles.css';
 
 export const ReactOnClick = () => {
-  // const [isClicked, setIsClicked] = useState(false);
-  const [count, setCount] = useState(0);
-  // const text = isClicked ? 'Klikniete' : 'Nie klikniete';
+  const [value, setValue] = useState(' ');
 
   function handleClick() {
-    // setIsClicked(!isClicked);
-    setCount(count + 1);
+    setValue(' ');
   }
 
+  function handleChange(event) {
+    setValue(event.target.value);
+  }
   return (
     <div>
       <h1>Cześć!</h1>
 
-      <button onClick={handleClick}>{count}</button>
+      <input tpe="text" value={value} onChange={handleChange} />
+
+      <p>
+        <strong>{value}</strong>
+      </p>
     </div>
   );
 };

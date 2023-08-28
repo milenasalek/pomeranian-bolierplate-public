@@ -2,12 +2,11 @@ import './styles.css';
 
 export function Exercise() {
   const animal = {
-    type: "dog",
+    type: 'dog',
     age: 8,
   };
-    animal.age = 10,
-
-console.log(animal.age);
+  animal.age = 10;
+  console.log(animal.age);
 
   function multiply(num1, num2) {
     return num1 * num2;

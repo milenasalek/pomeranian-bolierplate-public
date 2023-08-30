@@ -2,7 +2,7 @@ import React from 'react';
 
 import { SelectorsAndCascade } from './SelectorsAndCascade';
 
-export const htmlCssblockRouterMetaData = {
+export const htmlCssRouterMetaData = {
   path: 'selectors-and-cascade',
   date: '28-08-2023',
   linkLabel: 'HTML & CSS - ćwiczenia',

@@ -5,5 +5,5 @@
 
   height: 150px;
 
-  filter: grayscale()
+  filter: grayscale(1);
 }

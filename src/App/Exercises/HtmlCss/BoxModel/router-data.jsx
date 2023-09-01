@@ -1,7 +1,7 @@
 import React from 'react';
 import { BoxModel } from '.';
 
-export const blockRouterMetaData = {
+export const BoxModelRouterMetaData = {
   path: 'box-and-display',
   date: '31-08-2023',
   linkLabel: 'HTML & CSS - box model oraz display',

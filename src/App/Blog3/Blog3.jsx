@@ -1,20 +1,22 @@
 import './styles.css';
-export const Blog = () => {
+export const Blog3 = () => {
   return (
     <div>
       {/* First Blog Entry */}
-      <div className="blog-container">
-        <div className="blog-date">30-11-2022</div>
+      <div className="blog-container-first">
+        <div className="blog-date-top">30-11-2022</div>
 
         <div className="blog-content"></div>
-        <h1 className="blog-title">Why are we so nostalgic for the 1990s?</h1>
-        <p className="blog-text">
+        <h1 className="blog-title-top">
+          Why are we so nostalgic for the 1990s?
+        </h1>
+        <p className="blog-text-top">
           Pop culture used to define a generation, but it seems the cultural,
           music and fashion trends of the 1990s have been recycled, and what
           Generation X considered its rite of passage into adulthood, is being
           discovered and claimed by fledgling grown-ups as their own.
         </p>
-        <p className="blog-text">
+        <p className="blog-text-top">
           There's been the resurgence of vinyl as the trend-setters' choice of
           music consumption rather than the ease of a digital download, and now
           the hipsters have discovered the nostalgic sound of a whirring
@@ -23,13 +25,13 @@ export const Blog = () => {
         </p>
 
         <div className="blog-author">
-          <p className="blog-author-name">Radosława Majdan</p>
-          <p className="blog-author-role">Senior Marketing Specialist</p>
+          <p className="blog-author-name-top">Radosława Majdan</p>
+          <p className="blog-author-role-top">Senior Marketing Specialist</p>
         </div>
       </div>
-
+      <p></p>
       {/* Second Blog Entry */}
-      <div className="blog-container">
+      <div className="blog-container-second">
         <div className="blog-date">30-11-2022</div>
 
         <div className="blog-content">
@@ -47,9 +49,9 @@ export const Blog = () => {
           <p className="blog-author-role">Senior Marketing Specialist</p>
         </div>
       </div>
-
+      <p></p>
       {/* Third Blog Entry */}
-      <div className="blog-container">
+      <div className="blog-container-third">
         <div className="blog-date">30-11-2022</div>
 
         <div className="blog-content">
@@ -69,8 +71,23 @@ export const Blog = () => {
 
         <div className="list">
           <ul>
-            <li>WP.PL 1</li>
-            <li>WP.PL 2</li>
+            <li>
+              <a
+                href="https://wiadomosci.wp.pl/to-zacieranie-sladow-chodzi-o-pakiety-wyborcze-sasina-6879848507329312a"
+                target="_blank"
+              ></a>
+              <strong>WP.PL 1</strong>
+            </li>
+            <p className="gap"></p>
+            <li>
+              <a href="https://www.wp.pl/" target="_blank"></a>
+              <strong>WP.PL 2</strong>
+            </li>
+            <p className="gap"></p>
+            <a
+              href="https://www.onet.pl/film/onetfilm/tvn-wbil-szpile-tvp-pokazano-alternatywna-rzeczywistosc-telewizji-rzadowej/2ksezfp,681c1dfa"
+              target="_blank"
+            ></a>
             <li>ONET.PL</li>
           </ul>
         </div>

@@ -1,9 +1,14 @@
 
 .blog-container{
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: inline-flex;
+padding: 45px 61px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background: var(--gray-80, #F4F5F7);
+
 }
 
 .blog-date {
@@ -70,5 +75,12 @@
     font-style: normal;
     font-weight: 700;
     line-height: 22px; /* 157.143% */
-    align-self: stretch;
+}
+
+.gap {
+    display: flex;
+padding: 0px 10px;
+flex-direction: column;
+align-items: flex-start;
+gap: 29px;
 }

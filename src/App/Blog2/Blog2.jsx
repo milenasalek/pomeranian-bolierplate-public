@@ -1,5 +1,5 @@
 import './styles.css';
-export const Blog = () => {
+export const Blog2 = () => {
   return (
     <div>
       {/* First Blog Entry */}
@@ -27,7 +27,7 @@ export const Blog = () => {
           <p className="blog-author-role">Senior Marketing Specialist</p>
         </div>
       </div>
-
+      <p></p>
       {/* Second Blog Entry */}
       <div className="blog-container">
         <div className="blog-date">30-11-2022</div>
@@ -47,7 +47,7 @@ export const Blog = () => {
           <p className="blog-author-role">Senior Marketing Specialist</p>
         </div>
       </div>
-
+      <p></p>
       {/* Third Blog Entry */}
       <div className="blog-container">
         <div className="blog-date">30-11-2022</div>
@@ -69,8 +69,14 @@ export const Blog = () => {
 
         <div className="list">
           <ul>
-            <li>WP.PL 1</li>
-            <li>WP.PL 2</li>
+            <li>
+              <strong>WP.PL 1</strong>
+            </li>
+            <p className="gap"></p>
+            <li>
+              <strong>WP.PL 2</strong>
+            </li>
+            <p className="gap"></p>
             <li>ONET.PL</li>
           </ul>
         </div>

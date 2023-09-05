@@ -6,6 +6,7 @@ import { CalendarIcon } from '../Components/Icons/CalendarIcon';
 import { PersonalCardIcon } from '../Components/Icons/PersonalCardIcon';
 import { MessageIcon } from '../Components/Icons/MessageIcon';
 import './styles/aside.css';
+import { SetIcon } from '../Components/Icons/SetIcon';
 
 export function AppAside() {
   return (

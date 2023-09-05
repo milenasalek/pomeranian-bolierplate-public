@@ -1,0 +1,17 @@
+.cookies {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #23213D;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cookiesContent {
+    max-width: 700px;;
+}
+.cookies img  {
+    float: left;
+}

@@ -11,6 +11,7 @@ import { CV } from './App/Components/CV/CV';
 import { Calendar } from './App/Components/Calendar/Calendar';
 import { Blog } from './App/Blog/Blog';
 import { FAQ } from './App/FAQ/FAQ';
+import { FloatsAndPositioningExercises } from './App/Exercises/HtmlCss/FloatsAndPositioningExercises/FloatsAndPositioningExercises';
 
 export function App() {
   return (
@@ -24,6 +25,10 @@ export function App() {
           <Route path="cv/*" element={<CV />} />
           <Route path="calendar/*" element={<Calendar />} />
           <Route path="blog/*" element={<Blog />} />
+          <Route
+            path="positioning/*"
+            element={<FloatsAndPositioningExercises />}
+          />
           <Route path="faq/*" element={<FAQ />} />
           <Route path="*" element={<NotFound />} />
         </Route>

@@ -1,17 +1,17 @@
 import './styles.css';
-import { htmlSvg } from '../Images/tech-stack/html';
-import { githuubSvg } from '../Images/tech-stack/githuub';
+import html from './html.svg';
+import githuub from './githuub.svg';
 
 export const TechStack = () => {
   return (
     <div id="container">
       <div id="first">
+        <img src={html} alt="htmlIcon" />
         <span>css</span>
       </div>
       <div id="second">
         <span>html</span>
       </div>
-      <htmlSvg />
       <div id="third">
         <span>typescript</span>
       </div>
@@ -22,9 +22,9 @@ export const TechStack = () => {
         <span>react</span>
       </div>
       <div id="sixth">
+        <img src={githuub} alt="githuubIcon" />
         <span>github</span>
       </div>
-      <githuubSvg />
       <div id="seventh">
         <span>bitbucket</span>
       </div>

@@ -1,5 +1,5 @@
 import './styles.css';
-import first from '../ImageFiles/2.png';
+import first from './2.png';
 
 export const FloatsAndPositioningExercises = () => {
   return (

@@ -1,5 +1,5 @@
 import './styles.css';
-import first from '../ImageFiles/1.jpeg';
+import first from './1.jpeg';
 
 export const FloatsAndPositioning = () => {
   return (

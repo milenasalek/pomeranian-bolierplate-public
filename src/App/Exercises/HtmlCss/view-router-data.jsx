@@ -10,6 +10,7 @@ import { BoxModelRouterMetaData } from './BoxModel/router-data';
 import { HTMLTablesRouterMetaData } from './HTMLTables/router-data';
 import { ArrayRenderingRouterMetaData } from './ArrayRendering/router-data';
 import { FloatsAndPositioningRouterMetaData } from './FloatsAndPositioning/router-data';
+import { RWDRouterMetaData } from './RWD/router-data';
 
 export const blockRouterMetaData = [
   htmlCssRouterMetaData,
@@ -22,5 +23,6 @@ export const blockRouterMetaData = [
   HTMLTablesRouterMetaData,
   ArrayRenderingRouterMetaData,
   FloatsAndPositioningRouterMetaData,
+  RWDRouterMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

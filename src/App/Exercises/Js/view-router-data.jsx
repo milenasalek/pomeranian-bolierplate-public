@@ -12,6 +12,7 @@ import {
 import { JsNumbersTrainingRouterMetaData } from './JsNumbersTraining/router-data';
 import { EmptyValuesAndCommentsRouterMetaData } from './EmptyValuesAndComments/router-data';
 import { JsStringCodingRouterMetaData } from './JsStringCoding/router-data';
+import { JsStringTrainingRouterMetaData } from './JsStringTraining/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -23,5 +24,6 @@ export const blockRouterMetaData = [
   JsNumbersTrainingRouterMetaData,
   EmptyValuesAndCommentsRouterMetaData,
   JsStringCodingRouterMetaData,
+  JsStringTrainingRouterMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

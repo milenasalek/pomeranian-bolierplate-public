@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import { Timer } from './Timer';
+
 export const SetTimeout = () => {
   const [count, setCount] = useState(0);
   const [doubleCount, setDoubleCount] = useState(0);
@@ -37,6 +39,7 @@ export const SetTimeout = () => {
         <div>Count {count}</div>
         <div>DoubleCount {doubleCount}</div>
       </div>
+      <Timer />
     </div>
   );
 };
